@@ -61,16 +61,17 @@ export default async function Home() {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-24 relative z-10">
           <a
-            href="https://app.molfi.fun/chat"
+            href="http://localhost:3000"
             className="bg-primary text-on-primary px-10 py-5 rounded-2xl font-black uppercase tracking-widest text-xs flex items-center justify-center gap-3 primary-glow hover:opacity-90 active:scale-95 transition-all w-full sm:w-auto text-center"
           >
             Launch Molfi App
           </a>
-          <button
-            className="w-full sm:w-auto rounded-2xl border border-outline-variant/20 bg-surface px-10 py-5 text-xs font-black uppercase tracking-widest text-white hover:border-primary/20 transition-all text-center cursor-pointer"
+          <a
+            href="http://localhost:3002"
+            className="w-full sm:w-auto rounded-2xl border border-outline-variant/20 bg-surface px-10 py-5 text-xs font-black uppercase tracking-widest text-white hover:border-primary hover:border-primary/20 transition-all text-center cursor-pointer"
           >
-            Watch 60s demo
-          </button>
+            Advertise on Molfi
+          </a>
         </div>
 
         {/* Ambient Glow */}
@@ -268,7 +269,7 @@ export default async function Home() {
             Want to put your video ads on Molfi? Access verifiable impressions tracked directly on-chain and earn payouts programmatically.
           </p>
           <a
-            href="https://advertise.molfi.fun"
+            href="http://localhost:3002"
             className="relative z-10 inline-flex items-center gap-2 bg-primary text-on-primary px-10 py-5 rounded-2xl font-black uppercase tracking-widest text-xs primary-glow hover:opacity-90 active:scale-95 transition-all"
           >
             Open Marketers Dashboard
