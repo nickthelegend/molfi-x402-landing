@@ -1,8 +1,8 @@
 import './globals.css';
 import { Metadata } from 'next';
-import { Space_Grotesk, Inter, JetBrains_Mono } from 'next/font/google';
+import { Manrope, Inter, JetBrains_Mono } from 'next/font/google';
 
-const display = Space_Grotesk({ subsets: ['latin'], weight: ['400','500','700'], variable: '--font-display' });
+const display = Manrope({ subsets: ['latin'], weight: ['400','500','600','700','800'], variable: '--font-display' });
 const bodyFont = Inter({ subsets: ['latin'], weight: ['400','500','600','700'], variable: '--font-body' });
 const mono = JetBrains_Mono({ subsets: ['latin'], weight: ['400','500','700'], variable: '--font-mono' });
 
