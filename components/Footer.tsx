@@ -26,14 +26,14 @@ export function Footer() {
             <h4 className="font-black text-white uppercase tracking-[0.2em] text-[11px]">Product</h4>
             <ul className="space-y-4 font-bold text-on-surface-variant">
               <li><a href="/molfi-extension-1.0.0.vsix" download className="hover:text-primary transition-colors">Extension</a></li>
-              <li><a href="http://localhost:3000/chat" className="hover:text-primary transition-colors">Agentic Chat</a></li>
-              <li><a href="http://localhost:3002" className="hover:text-primary transition-colors">Marketers Panel</a></li>
+              <li><a href="https://app.molfi.fun/chat" className="hover:text-primary transition-colors">Agentic Chat</a></li>
+              <li><a href="https://advertise.molfi.fun" className="hover:text-primary transition-colors">Marketers Panel</a></li>
             </ul>
           </div>
           <div className="space-y-8">
             <h4 className="font-black text-white uppercase tracking-[0.2em] text-[11px]">Resources</h4>
             <ul className="space-y-4 font-bold text-on-surface-variant">
-              <li><a href="http://localhost:3000/chat" className="hover:text-primary transition-colors">Documentation</a></li>
+              <li><a href="https://app.molfi.fun/chat" className="hover:text-primary transition-colors">Documentation</a></li>
               <li><a href="https://github.com/nickthelegend/speedrun" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Source Code</a></li>
               <li><a href="https://testnet.snowtrace.io" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Fuji Snowtrace</a></li>
             </ul>

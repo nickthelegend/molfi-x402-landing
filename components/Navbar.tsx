@@ -80,7 +80,7 @@ export function Navbar() {
             >
               <DropdownItem href="/molfi-extension-1.0.0.vsix" download={true} icon={Monitor} title="Extension" desc="Smart browser companion" />
               <DropdownItem href="#" icon={Smartphone} title="Mobile App" desc="Trade on the go (Soon)" />
-              <DropdownItem href="http://localhost:3000/chat" icon={Wallet} title="Agentic Wallet" desc="Autonomous automation" />
+              <DropdownItem href="https://app.molfi.fun/chat" icon={Wallet} title="Agentic Wallet" desc="Autonomous automation" />
             </NavDropdown>
 
             <NavDropdown 
@@ -88,7 +88,7 @@ export function Navbar() {
               isOpen={openDropdown === 'resources'} 
               onToggle={() => toggleDropdown(openDropdown === 'resources' ? null : 'resources')}
             >
-              <DropdownItem href="http://localhost:3000/chat" icon={BookOpen} title="Docs" desc="Integration guides" />
+              <DropdownItem href="https://app.molfi.fun/chat" icon={BookOpen} title="Docs" desc="Integration guides" />
               <DropdownItem href="#" icon={Shield} title="Security" desc="Audits and safety" />
               <DropdownItem href="https://github.com/nickthelegend/speedrun" icon={Globe} title="Ecosystem" desc="Built on Avalanche Fuji" />
             </NavDropdown>
@@ -117,7 +117,7 @@ export function Navbar() {
 
         {/* Action Section */}
         <div className="flex items-center gap-4">
-          <a href="http://localhost:3000/chat" className="hidden sm:flex items-center gap-2 bg-primary text-on-primary px-6 py-2.5 rounded-xl font-black uppercase tracking-widest text-[11px] primary-glow hover:opacity-90 active:scale-95 transition-all">
+          <a href="https://app.molfi.fun/chat" className="hidden sm:flex items-center gap-2 bg-primary text-on-primary px-6 py-2.5 rounded-xl font-black uppercase tracking-widest text-[11px] primary-glow hover:opacity-90 active:scale-95 transition-all">
             Launch App
           </a>
         </div>
