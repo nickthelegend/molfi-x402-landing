@@ -310,6 +310,8 @@ export default async function Home() {
             <span>•</span>
             <a href="https://testnet.snowtrace.io" target="_blank" rel="noopener noreferrer" className="hover:underline">Fuji Snowtrace</a>
             <span>•</span>
+            <a href="/molfi-extension-1.0.0.vsix" download className="hover:underline">VS Code Extension (.vsix)</a>
+            <span>•</span>
             <a href="#" className="hover:underline">Judge Cheatsheet PDF</a>
           </div>
         </div>
